@@ -79,22 +79,21 @@ body {
   100% { color: #DD5B82; }
 }
 
-kbd {
  kbd {
     display: inline-block;
-    padding: 10px;
-    border: solid 1px #aaa;
-    background: #eee;
-    border-radius: 0.1em;
-    color: #555;
-    width: 2.5em;
-    height: 1.2em;
-    text-transform: none;
-    border-bottom-width: 0.3em;
-    border-radius: 0.5em;
-    border-bottom-right-radius: 0.5em;
-    font-family: 'Pinyon Script', cursive;
-    font-size: calc(11px + 2vw); /* Restoring dynamic size */
+  padding: 10px;
+  border: solid 1px #aaa;
+  background: #eee;
+  border-radius: 0.1em;
+  color: #555;
+  width: 2.5em;
+  height: 1.2em;
+  text-transform: none;
+  border-bottom-width: 0.3em;
+  border-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  font-family: monospace;
+  font-size: calc(11px + 2vw);
 }
 
 }
