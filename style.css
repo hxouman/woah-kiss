@@ -50,7 +50,7 @@ body {
   justify-content: space-between;
   font-size: 30px;
   font-family: 'Pinyon Script';
-  text-transform: capitalize;
+  text-transform: lowercase;
 }
 
 .mission { 
