@@ -265,13 +265,14 @@
         break;
     }
     
-   // TweenMax.fromTo('[data-key="' + key + '"]', 0.1, {
-//   backgroundColor: '#eee'
-// },{
-//   backgroundColor: '#ddd',
-//   repeat: 1,
-//   yoyo: true
-// });
+   TweenMax.fromTo('[data-key="' + key + '"]', 0.1, {
+  backgroundColor: '#eee'
+},{
+  backgroundColor: '#ddd',
+  repeat: 1,
+  yoyo: true
+});
+
 
 
     if ( target ) {
