@@ -48,7 +48,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'Pinyon Script';
   text-transform: lowercase;
 }
@@ -81,19 +81,19 @@ body {
 
 kbd {
   display: inline-block;
-  padding: 10px;
-  border: solid 1px #aaa;
-  background: #eee;
-  border-radius: 0.1em;
-  color: #555;
-  width: 2.5em;
-  height: 1.2em;
-  text-transform: none;
-  border-bottom-width: 0.3em;
-  border-radius: 0.5em;
-  border-bottom-right-radius: 0.5em;
-  font-family: monospace;
-  font-size: calc(11px + 2vw);
+    padding: 5px 8px;  /* Reduce padding */
+    font-size: 1em;  /* Adjust font size */
+    border: solid 1px #aaa;
+    background: #eee;
+    border-radius: 0.3em;
+    color: #555;
+    width: 2em;  /* Reduce width */
+    height: 1.5em; /* Reduce height */
+    text-transform: none;
+    border-bottom-width: 0.2em;
+    border-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    font-family: 'Pinyon Script';
 }
 
 [data-key] { 
